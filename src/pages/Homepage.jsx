@@ -1,4 +1,4 @@
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import PageNav from "../Components/PageNav";
 
 function Homepage() {
@@ -6,7 +6,7 @@ function Homepage() {
     <div>
       <PageNav />
       <h1>Worldwise</h1>
-      {/* <Link to="/pricing">Pricing</Link> */}
+      <Link to="/app">Go To App</Link>
     </div>
   );
 }
