@@ -3,6 +3,7 @@ import Product from "./pages/product";
 import Pricing from "./pages/pricing";
 import Homepage from "./pages/Homepage";
 import PageNotFound from "./pages/PageNotFound";
+// import PageNav from "./Components/PageNav";
 function App() {
   return (
     <BrowserRouter>
